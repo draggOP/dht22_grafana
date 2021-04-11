@@ -23,6 +23,8 @@ services:
       - 8126:8126
     networks:
       - grafana-net
+    volumes:
+      - /c/Users/dragg/dht22_grafana/storage-schemas.conf:/opt/graphite/conf/storage-schemas.conf
 
 networks:
   grafana-net:
