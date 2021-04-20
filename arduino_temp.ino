@@ -1,5 +1,4 @@
 #include <OneWire.h>
-#include <OneWire.h>
 #include <DallasTemperature.h>
 #include <ArduinoJson.h>
 #include <Ethernet.h>
